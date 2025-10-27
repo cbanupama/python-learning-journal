@@ -32,9 +32,11 @@ temp = a
 a = b
 b = temp
 print("After swapping with a third variable: a =", a, ", b =", b)
+
 # Reset values
 a = 5
 b = 10
+
 # Swap without using a third variable
 a, b = b, a
 print("After swapping without a third variable: a =", a, ", b =", b)
