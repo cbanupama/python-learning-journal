@@ -26,3 +26,21 @@ print("With underscores:", sentence.replace(" ", "_"))
 # Remove leading and trailing whitespace
 print("Trimmed sentence:", sentence.strip())
 
+# Write a Python program that:
+
+# Asks the user for a string.
+# Prints how many characters are in the string, excluding spaces.
+
+user_string = input("Enter a string: ")
+# Count characters excluding spaces
+char_count = len(user_string.replace(" ", ""))
+print("Number of characters (excluding spaces):", char_count)   
+
+# Escape Sequence Practice: Write a Python program that uses escape sequences to print the following output:
+
+# Example:
+
+# Hello
+#     World
+# This is a backslash: \
+print("Hello\n\tWorld\nThis is a backslash: \\")
